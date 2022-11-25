@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <stdlib.h>
+char* strcpy(char* str)
+{
+	int i = 0;
+	for (; str[i] = '\0'; i++)
+	{}
+	char* _str = (char*)malloc((i+1) * sizeof(char));
+	for (int num = 0; num < i; num++)
+	{
+		_str[i] = str[i];
+	}
+	_str[i] = '\0';
+	return _str;
+}
